@@ -1,6 +1,12 @@
 
 function uppg4() {
-  
+    let person = {
+        name : 'Ali',
+        age : 25
+    }
+    console.log(person.age);
+    //console.log(person['age']);      //eller så
+
     // deklarera ett objekt med namnet person
     // objektet ska ha två properties, name och age
     // tilldela age 25
@@ -8,5 +14,6 @@ function uppg4() {
 
 
 }
+uppg4()
 
 module.exports = { uppg4 };
